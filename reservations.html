@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Reservations</title>
+</head>
+<body>
+    <div class="reservation">
+        <div class="reservations">
+        <img src="./images/reservations-image.jpg">
+        </div>
+        <div class="yolla">
+            <img id="logo"src="./images/ankole_logo.svg">
+            <p id="karibu">Karibu</p><br>
+            <p id="reserve">Reservation</p>
+        </div>
+        <div class="form">
+    <form action="submit">
+        <label id="name"> Name
+            <input required type="text" id="name" placeholder="Enter Your Name">
+        </label><br><br>
+         <label id="location"> Location
+            <select name="cars" id="cars">
+                <option value="kitisuru">kitisuru</option>
+                <option value="killiman">Killiman</option>
+              </select>
+        </label><br> <br>
+        <label id="email">  Email Address
+            <input required type="email" id="email" placeholder="e.ginfo@gmail.com">
+        </label><br><br>
+        <label id="telephone">Tell/Cell
+            <input required type="tel" id="telephone" placeholder="0700 000 000">
+        </label><br><br>
+        <label id="guests">
+            Number Of Guests
+            <input required type="number" id="guests" placeholder="(maximum of 8 guests only) ">
+        </label><br><br>
+        <label id="date">Date
+            <input required type="date" id="date" placeholder="mm/dd/yy">
+        </label><br><br>
+        <label id="time"> Time
+            <input required type="time" id="time" placeholder="Time">
+        </label><br><br><br>
+        <button type="submit">Submit</button>
+    </form>
+        </div>
+    </div>
+    <div class="whats">
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+        <header class="headder">
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-bars" style="color: #4b4c4e;"></i></li>
+                    <div class="svg"><li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock3-icon lucide-clock-3"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16.5 12"/></svg></li>
+                        <div class="text-wrapper">
+                            <p>Opening Hours</p>
+                            <h2>Kitisuru</h2>
+                            <p>Mon - Sun</p>
+                            <p>9.00am - 11.00pm</p>
+                            <h2>Kilimani</h2>
+                            <p>Mon - Sun</p>
+                             <p>7.30am - 11.00pm</p>
+                           </div>
+                    </div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Menu </a></li>
+                    <li><a href="./reviews.html">Reviews</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                    <li><a href="./live.html">Live</a></li>
+                    <li><a href="./contacts.html">Contacts</a></li>
+                    <li id="reserved"><a href="./reservations.html">Reservations</a></li>
+                </ul>
+            </nav>
+        </header>
+        </div>
+</body>
+</html>
