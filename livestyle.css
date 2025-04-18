@@ -1,0 +1,85 @@
+.live{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url('./images/indoor-rich.jpg');
+      height: 100vh;
+       color:black;
+       background-size: cover;
+       width:100%;
+       overflow: scroll;
+   
+   } 
+   #tukatike{
+       color:white;
+       font-size: 50px;
+       text-align: center;
+   
+   }
+   #livee{
+       color:rgb(240, 13, 13);
+       font-size: 60px;
+       margin-top:-50px;
+    text-align: center;
+   }
+   .liveHeading ul{
+       display: flex;
+       list-style: none;
+       gap:40px;
+       font-size: 25px;
+       background-color: rgb(8, 8, 8);
+       padding: 15px;
+       border-radius: 55px;
+       position: relative;
+       height:50px;
+      margin-left: -15vh;
+      margin-top: -99vh;
+   }
+   .liveApp{
+       font-size: 40px;
+       color: white;
+       background-color: black;
+       margin-top: -7vh;
+       width: 4.5vh;
+       margin-left: 1790px;
+       position: absolute;
+   }
+   .performing img{
+       width:300px;
+       height: 40vh;
+   }
+   .performing{
+       font-size: 20px;
+       color: white;
+       display: flex;
+       margin-left: 1300px;
+       position: relative;
+   }
+   #acoustic{
+       margin-right: 2000vh; 
+     }
+     .liveLogo{
+        position:fixed;
+        left: 55vh;
+        top: 20vh;
+        font-size: 30px;
+    }
+    .liveLogo p{
+        margin-top:160px;
+        margin-left: 50px;
+    }
+    .liveLogo img{
+        width: 200px;
+    }
+     .perform{
+            font-size: 20px;
+            color: white;
+            display: flex;
+            margin-left: 1300px;
+            position: relative;
+        }
+      .perform img{
+            width:300px;
+            height: 40vh;
+        }
+        #acoustic{
+       text-decoration: none;
+       color:white;
+        }

@@ -1,0 +1,83 @@
+form{
+    width:100%;
+    padding: 60px;
+    box-shadow: 25px 25px 25px 25px;
+    box-sizing: border-box;
+  }
+  input:hover{
+    border: 2.5px solid rgb(9, 231, 9);
+  } 
+  input{
+    padding:16px 12px;
+    width:180%;
+    margin:5px 0;
+}
+label{
+    color: white;
+    font-size: 20px;
+}
+#logo{
+    width:150px;
+    margin-left: 87px;
+}
+button{
+    border:1px solid;
+    padding:15px 8px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 190%;
+    height: 50px;
+    background-color:rgb(248, 183, 194);
+    border-radius: 20px;
+}
+
+select{
+    padding:16px 12px;
+    width:190%;
+    margin:5px 0;
+    border: 5px;
+    border: solid 1px;
+}
+.reservations img{
+width:980px;
+height: 955px;
+}
+.reservation{
+    display: flex;
+    gap:50px;
+     background-color: black; 
+} 
+.ankoleLogo{
+    position:fixed;
+    left: 40vh;
+    top: 20vh;
+    font-size: 30px;
+}
+.ankoleLogo p{
+    margin-top:160px;
+    margin-left: 50px;
+}
+#karibu{
+    color:white;
+    font-size: 50px;
+
+}
+#reserve{
+    color:rgb(240, 13, 13);
+    font-size: 60px;
+    margin-top:-50px;
+   margin-left: 5px;
+}
+.reservationHeading ul{
+    display: flex;
+    list-style: none;
+    gap:40px;
+    font-size: 25px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 55px;
+    position: relative;
+    margin-top: -90vh;
+    height:50px;
+   margin-left: -12vh;
+}

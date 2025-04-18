@@ -1,0 +1,48 @@
+.reviewLogo img{
+    width:150px;
+    margin-left: 827px;
+    margin-top: 190px;
+    }
+
+#right{
+font-size: 70px;
+color:rgb(179,66,21);
+margin-left:130vh;
+}
+.review p,h1{
+    text-align: center;
+    color: white;
+}
+#left{
+    margin-left:55vh;
+    font-size: 70px;
+    color:rgb(179,66,21);
+}
+        .reviews{
+            background-color: rgb(10, 10, 10);
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+        }
+        .reviewApp{
+            font-size: 40px;
+            color: white;
+            background-color: black;
+            width: 4.5vh;
+            position: fixed;
+            margin-left: 1790px;
+            margin-top: -15vh;
+        }
+        .reviewHeading ul{
+            display: flex;
+            list-style: none;
+            gap:40px;
+            font-size: 25px;
+            background-color: black;
+            padding: 15px;
+            border-radius: 55px;
+            position: relative;
+            margin-top: -90vh;
+            height:50px;
+           margin-left: -10vh;
+        }

@@ -1,0 +1,72 @@
+.accra{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url('./images/acrra.jpg');
+    background-size: cover;
+    height: 99.9vh;
+    width:700px;
+    }
+.zanzibar{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('./images/decor.jpg');
+    background-size: cover;
+    height: 99.9vh;
+    width:700px;
+    }
+.decor{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url('./images/zanzibar.jpg');
+    background-size: cover;
+    height: 99.9vh;
+   width:700px;
+    }
+    .events{
+        display: flex;
+        position: relative;
+    }
+    .events img{
+        position: absolute;
+        margin-left:80vh;
+        width: 300px;
+    }
+     .eventApp{
+            font-size: 40px;
+            color: white;
+            position: absolute;
+            background-color: black;
+            margin-top: -18vh;
+            width: 4.5vh;
+            margin-left: 1790px;
+        }
+        .eventHeading ul{
+            display: flex;
+            list-style: none;
+            gap:40px;
+            font-size: 25px;
+            background-color: black;
+            padding: 15px;
+            border-radius: 55px;
+            position: relative;
+            margin-top: -95vh;
+            height:50px;
+        }
+        .accr{
+            position:absolute;
+            color:white;
+            font-size: 30px;
+            margin-top: 35vh;
+            text-align: center;
+            margin-left: 10vh;
+        }
+        .deco{
+            position:absolute;
+            color:white;
+            font-size: 30px;
+            margin-top: 35vh;
+            text-align: center;
+            margin-left: 20vh;
+        }
+        .zanziba{
+            position:absolute;
+            color:white;
+            font-size: 30px;
+            margin-top: 35vh;
+            text-align: center;
+            margin-left: 2vh;
+        }

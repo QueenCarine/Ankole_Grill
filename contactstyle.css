@@ -1,0 +1,64 @@
+#body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('https://manlypacific.com.au/wp-content/uploads/sites/44/2025/03/Cibaria_LuchettiKrelle_StevenWoodburn_7-2200x1200.jpg');
+    background-size: cover;
+    height: 10vh;
+    font-size: 17px;
+} 
+.contacts{
+    max-width: 700px;
+    max-height: 500px;
+    margin: auto;
+    padding: 60px 20px;
+    display: flex;
+    gap:30px;
+}
+.kitisuru{
+    border:1px solid white;
+    padding: 35px;
+    margin-bottom: 30px;
+    color: white;
+    width:800px;
+}
+#kiti{
+    height:290px;
+    width:1050px;
+}
+#kili{
+    width:1050px;
+    padding: 40px;
+}
+.kitisuru h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.kitisuru a{
+    color:#ddd;
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    width:150px;
+    margin-left: 857px;
+    margin-top: 120px;
+}
+.whatsap{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    background-color: black;
+    margin-top: -18vh;
+    width: 4.5vh;
+    margin-left: 1790px;
+}
+.navBar ul{
+    display: flex;
+    list-style: none;
+    gap:40px;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 55px;
+    margin-top: -84vh;
+    height:50px;
+    position: relative;
+   margin-left: -5vh;
+}
