@@ -81,3 +81,75 @@ height: 955px;
     height:50px;
    margin-left: -12vh;
 }
+@media screen and (min-width: 320px)and (max-width: 480px){
+    .reservations img{
+        width:40vh;
+        height: 30vh;
+    }
+    .ankoleLogo p{
+        display: flex;
+    }
+    #logo{
+        margin-left: -25vh;
+        margin-top: -85vh;
+        width: 100px;
+
+    }
+    .reservation{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        background-color: black; 
+    }
+    #karibu{
+        margin-left: -30vh;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    #reserve{
+        margin-left: -30vh;
+        margin-top: -4vh;
+        font-size: 15px;
+    }
+    .form{
+        width:100%;
+        padding: 60px;
+        box-sizing: border-box;
+        margin-top: -15vh;
+
+    }
+    input{
+        padding:1px;
+        width:100%;
+        margin:5px 0;
+    }
+    label{
+        color: white;
+        font-size: 7px;
+    }
+    button{
+        border:1px solid;
+        padding:15px;
+        cursor: pointer;
+        font-size: 20px;
+        width: 100%;
+        height: 40px;
+        background-color:rgb(248, 183, 194);
+        border-radius: 20px;
+    }
+    select{
+        padding:5px ;
+        width:100%;
+        margin:5px 0;
+        border: 5px;
+        border: solid 1px;
+    }
+
+    .reservationHeading ul{
+        margin-left: -4vh;
+        margin-top: -105vh;
+        font-size: 12px;
+        gap:5px;
+        padding: 10px;
+    }
+}

@@ -160,4 +160,32 @@ nav svg i{
         color:orange;
         
     }
-       
+    @media screen and (min-width: 320px)and (max-width: 480px){
+        nav{
+            margin-top: 95vh;
+            margin-left: -5vh;
+           }
+           nav ul{
+            font-size: 12px;
+            gap:5px;
+            padding: 10px;
+           }
+           .image img{
+            width:150px;
+            margin-left: -5vh;
+           }
+           .image h1{
+            margin-left: -5vh;
+            font-size: 40px;
+           }
+    .socialIcons{
+        font-size: 20px;
+        margin-left: 10vh;
+    }
+    .whatsapp{
+        margin-top: 800px;
+        width: 4vh;
+        margin-left: 40vh;
+    }
+}
+    
