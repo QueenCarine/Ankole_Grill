@@ -70,3 +70,46 @@
             text-align: center;
             margin-left: 2vh;
         }
+        @media screen and (min-width: 320px)and (max-width: 480px){
+            .accra{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url('./images/acrra.jpg');
+                background-size: cover;
+                height: 99.9vh;
+                width:105px;
+                }
+            .zanzibar{
+                background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('./images/decor.jpg');
+                background-size: cover;
+                height: 99.9vh;
+                width:105px;
+                }
+            .decor{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url('./images/zanzibar.jpg');
+                background-size: cover;
+                height: 99.9vh;
+               width:105px;
+                } 
+                .accr{
+                    font-size: 10px;
+                    margin-left: -3vh;
+                }
+                .deco{
+                    font-size: 10px;
+                    margin-top: 35vh;
+                    text-align: center;
+                    margin-left: -13vh;
+                }
+                .zanziba{
+                    font-size: 10px;
+                    margin-left: 2vh;
+                    margin-left: 8vh;
+                }
+                .eventHeading ul{
+                    margin-left: -4vh;
+                    margin-top: -105vh;
+                    font-size: 12px;
+                    gap:5px;
+                    padding: 10px;
+                }
+        }
+        
