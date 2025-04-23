@@ -79,12 +79,13 @@
         background-repeat: no-repeat;
         height: 1000px;
         width: 5px;
+        overflow: scroll;
     }
     .kitisuru{
         padding: 35px;
         margin-bottom: 30px;
         color: white;
-        width:-1000px;
+        width:-100px;
         margin-left: -20px;
     }
     .whatsap{ 
@@ -92,16 +93,17 @@
         color: white;
         position: absolute;
         background-color: black;
-        margin-top: -18vh;
+        margin-top: -8vh;
         width: 4.5vh;
-        margin-left: 1790px;
+        margin-left:90px;
     }
     .navBar ul{
-        margin-left: -4vh;
-        margin-top: -55vh;
+        margin-left: -2vh;
+        top:290px;
         font-size: 12px;
         gap:5px;
         padding: 10px;
+        height: 20px;
 
 }
 }
